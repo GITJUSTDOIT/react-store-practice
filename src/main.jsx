@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router';
 import { CartContextProvider } from './store/cart-context';
 
 createRoot(document.getElementById('root')).render(
+  // main
   <BrowserRouter>
     <CartContextProvider>
       <App />
